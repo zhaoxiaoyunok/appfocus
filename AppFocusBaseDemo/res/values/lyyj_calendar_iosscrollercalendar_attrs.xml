@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScrollerCalendar">
+        <attr name="dividerColorScrollerCalendar" format="color"/>
+        
+        <attr name="yearHeaderTextColorScrollerCalendar" format="color" />
+        <attr name="yearHeaderTextHeightScrollerCalendar" format="dimension"/>
+        <attr name="yearHeaderTextSizeScrollerCalendar" format="dimension"/>
+
+        <attr name="yearHeaderLunarTextColorScrollerCalendar" format="color"/>
+        <attr name="yearHeaderLunarTextHeightScrollerCalendar" format="dimension"/>
+        <attr name="yearHeaderLunarTextSizeScrollerCalendar" format="dimension"/>
+        
+        <attr name="yearHeaderDashColorScrollerCalendar" format="color"/>
+        
+        <attr name="monthLabelTextColorScrollerCalendar" format="color"/>
+        <attr name="monthLabelTextSizeScrollerCalendar" format="dimension"/>
+        <attr name="monthLabelTextHeightScrollerCalendar" format="dimension"/>
+        
+        <attr name="dayLabelTextColorScrollerCalendar" format="color"/>
+        <attr name="dayLabelTextTodayColorScrollerCalendar" format="color"/>
+        <attr name="dayLabelTextSizeScrollerCalendar" format="dimension"/>
+        
+        <attr name="dayLabelCircleBgColorScrollerCalendar" format="color"/>
+        
+        <attr name="dayLabelCircleRadiusScrollerCalendar" format="dimension"/>
+        
+        <attr name="monthDayRowHeightScrollerCalendar" format="dimension"/>
+        
+        <attr name="showYearLunarLabelScrollerCalendar" format="boolean"/>
+        
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+     <com.lyyj.activity.demo.imageview.loadingcircle.LoadingImageView
+         android:id="@+id/loading_image_view"
+         android:layout_width="258px"
+         android:layout_height="257px"
+         android:background="#330000"
+         >
+     </com.lyyj.activity.demo.imageview.loadingcircle.LoadingImageView>
+     <com.lyyj.activity.demo.imageview.loadingcircle.LoadingCircleView
+         android:id="@+id/loading_cirle_view"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         >
+     </com.lyyj.activity.demo.imageview.loadingcircle.LoadingCircleView>
+
+
+</LinearLayout>

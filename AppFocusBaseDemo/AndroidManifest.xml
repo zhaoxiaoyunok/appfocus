@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.appfocusbase"
+    android:versionCode="2015092301"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <!-- 权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+　　  
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!--  -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:name="com.appfocusbase.global.MyApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/myTheme" >
+        <activity
+            android:name="com.appfocusbase.main.LauncherActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.menu.MenuSetsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="史上最全菜单" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.menu.arc.MenuArcActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.menu.animation.MenuAnimationActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="动画菜单" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.menu.circle.MenuCircleLayoutActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.menu.menudrawer.SamplesActivity"
+            android:label="menudrawer"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.menu.menudrawer.WindowSample" />
+        <activity android:name="com.lyyj.activity.demo.menu.menudrawer.LeftDrawerSample" />
+        <activity android:name="com.lyyj.activity.demo.menu.menudrawer.ListActivitySample" />
+        <activity android:name="com.lyyj.activity.demo.menu.menudrawer.ViewPagerSample" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.menudrawer.RightDrawerSample"
+            android:theme="@style/SampleTheme.RightDrawer" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.menudrawer.TopDrawerSample"
+            android:theme="@style/SampleTheme.TopDrawer" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lyyj.activity.demo.menu.menudrawer.SamplesActivity" />
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.menu.menudrawer.BottomDrawerSample"
+            android:theme="@style/SampleTheme.BottomDrawer" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.menudrawer.LayoutSample"
+            android:theme="@style/SampleTheme.TopDrawer" />
+        <activity android:name="com.lyyj.activity.demo.menu.menudrawer.StaticDrawerSample" />
+        <activity android:name="com.lyyj.activity.demo.menu.menudrawer.FragmentSample" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.menudrawer.ActionBarSherlockSample"
+            android:theme="@style/SampleTheme.Sherlock" />
+        <activity android:name="com.lyyj.activity.demo.menu.menudrawer.LeftOverlaySample" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.menudrawer.TopOverlaySample"
+            android:theme="@style/SampleTheme.TopDrawer" />
+        <activity android:name="com.lyyj.activity.demo.menu.menudrawer.RightOverlaySample" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.menudrawer.BottomOverlaySample"
+            android:theme="@style/SampleTheme.BottomDrawer" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.radial.RadialMenuMainMenuActivity"
+            android:label="radial menu" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.menu.radial.AltRadialMenuActivity"
+            android:label="Radial Menu V1" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.radial.RadialMenuActivity"
+            android:label="Radial Menu V2" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.radial.RadialProgressActivity"
+            android:label="Radial Progress" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.radial.SemiCircularRadialMenuActivity"
+            android:label="Semi Circular Radial Menu" />
+        <activity
+            android:name="com.lyyj.activity.demo.menu.satellitewheel.MenuSatelliteWheelActivity"
+            android:label="MenuSatelliteWheel" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.menu.satellitewheel.SatelliteMenuActivity"
+            android:label="satellite_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.MENU_SAMPLE_SATELLITE_WHEEL" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.menu.satellitewheel.WheelActivity"
+            android:label="wheel_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.MENU_SAMPLE_SATELLITE_WHEEL" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.menu.filtermenu.FilterMenuMainActivity"
+            android:label="@string/app_name" >
+        </activity>       
+         <activity
+            android:name="com.lyyj.activity.demo.menu.springpathhorizontal.activity.SpringPathHorizontalMainActivity"
+            android:label="@string/app_name"
+            >
+        </activity>        
+        <activity android:name="com.lyyj.activity.demo.menu.springpathhorizontal.activity.SecondActivity"></activity>
+        <activity android:name="com.lyyj.activity.demo.menu.springpathhorizontal.activity.ThreeActivity"></activity>
+        <activity android:name="com.lyyj.activity.demo.menu.springpathhorizontal.activity.FourActivity"></activity>       
+         <activity android:name="com.lyyj.activity.demo.menu.residemenu.demo.ResideMenuActivity"
+                  android:label="@string/app_name">
+        </activity>       
+
+        <activity
+            android:name="com.lyyj.activity.demo.mainmenu.MainMenuSetsActivity"
+            >
+        </activity>         
+          <activity
+            android:name="com.lyyj.activity.demo.mainmenu.tabfragment.TabFragmentActivity"
+            android:label="@string/app_name" >
+        </activity>        
+         
+         
+        <activity
+            android:name="com.lyyj.activity.demo.edittext.EditTextSetsActivity"
+            android:label="史上最全编辑框" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.edittext.validator.sample.EditTextFormExampleActivity"
+            android:label="edittextvalidator" >
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.edittext.validator.sample.LayoutExampleActivity" />
+        <activity android:name="com.lyyj.activity.demo.edittext.validator.sample.EmailOrCreditCard" />
+        <activity
+            android:name="com.lyyj.activity.demo.edittext.validator.sample.SettingsActivity"
+            android:label="Preferences" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lyyj.activity.demo.edittext.validator.sample.EditTextFormExampleActivity" />
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.edittext.chips.ChipsEditTextMainActivity"
+            android:label="@string/app_name" >       
+        </activity>
+        
+        <activity
+            android:name="com.lyyj.activity.demo.anim.AnimationSetsActivity"
+            android:label="史上最全动画" >
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.anim.listview3deffect.ListViewTransition3dActivity" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.anim.radiationview.AnimRadiationViewActivity"
+            android:label="radiationView雷达扫描动画" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.anim.curtaineffect.CurtainEffectActivity"
+            android:label="CurtainEffect" >
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.anim.filleffect.AnimFillEffectMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.anim.filleffect.AnimFillEffectGridActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.anim.filleffect.AnimFillEffectListActivity"/>     
+        <activity android:name="com.lyyj.activity.demo.anim.filleffect.AnimFillEffectFragmentDemo"/>
+    	<activity android:name="com.lyyj.activity.demo.animation.curl.CurlActivity"
+			android:label="@string/app_name" >
+		</activity>     
+        
+        
+        
+        
+        <activity
+            android:name="com.lyyj.activity.demo.button.BtnSetsActivity"
+            android:label="史上最全button合集"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.button.segmentradio.SegmentedRadioActivity"
+            android:label="分段按钮"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+          <activity
+            android:name="com.lyyj.activity.demo.button.bootstrap.BootstrapMainActivity"
+            android:label="@string/app_name" >
+        </activity>           
+        <activity
+            android:name="com.lyyj.activity.demo.button.fabbutton.FabButtonMainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan"
+            >
+        </activity>        
+         <activity
+            android:name="com.lyyj.activity.demo.button.fancybuttons.samples.FancyButtonsMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.button.fancybuttons.samples.XmlButtons"
+            android:label="@string/title_activity_xml_buttons" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.button.fancybuttons.samples.ProgramButtons"
+            android:label="@string/title_activity_program_buttons" >
+        </activity>       
+         <activity
+            android:name="com.lyyj.activity.demo.button.processbutton.sample.ProcessButtonMainActivity"
+            android:screenOrientation="portrait"
+           >
+        </activity>
+        
+ 		<activity
+            android:name="com.lyyj.activity.demo.button.rippleview.RippleViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+                
+        <activity
+            android:name="com.lyyj.activity.demo.button.processbutton.sample.MessageActivity"
+            android:screenOrientation="portrait"
+             />
+
+        <activity
+            android:name="com.lyyj.activity.demo.button.processbutton.sample.SignInActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize"
+            />
+
+        <activity
+            android:name="com.lyyj.activity.demo.button.processbutton.sample.UploadActivity"
+            android:screenOrientation="portrait"
+             />
+
+        <activity
+            android:name="com.lyyj.activity.demo.button.processbutton.sample.StateSampleActivity"
+            android:screenOrientation="portrait"
+             />
+        <activity
+            android:name="com.lyyj.activity.demo.button.circlebutton.CircleButtonMainActivity"
+            android:label="@string/app_name" >
+        </activity>  
+        
+        
+        
+        
+        <activity
+            android:name="com.lyyj.activity.demo.calendar.CalendarSetsActivity"
+            android:label="史上最全Calendar合集" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.calendar.iosweekview.IOSWeekViewActivity"
+            android:label="ios周视图" >
+        </activity>
+                <activity
+            android:name="com.lyyj.activity.demo.calendar.timessquare.sample.SampleTimesSquareActivity"
+            android:label="timessquare"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.calendar.sdcalendar.sample.SDCalendarActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.calendar.sdcalendar.sample.CalendarMonthActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.calendar.sdcalendar.sample.CalendarDaySampleActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.calendar.sdcalendar.sample.CalendarWeekSampleActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.calendar.lunar.LunarActivity"
+            android:label="lunar calendar"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.calendar.dateslider.DateSliderDemo"
+            android:label="date slider demo" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.calendar.dateslider.DateSliderMinimalDemo"
+            android:label="date slider mimidemo" >
+        </activity>
+          <activity
+            android:name="com.lyyj.activity.demo.calendar.scrollercalendar.demo.iosScrollerCalendarMainActivity"
+            android:label="@string/app_name" >
+        </activity>      
+         <activity
+            android:name="com.lyyj.activity.demo.calendar.datetimepicker.sample.DateTimePickerMainActivity"
+            android:label="@string/app_name">
+        </activity>
+               
+        <activity
+            android:name="com.lyyj.activity.demo.dialog.DialogSetsActivity"
+            android:label="史上最全Dialog合集" />
+        <activity
+            android:name="com.lyyj.activity.demo.dialog.dialogplus.sample.DialogPlusActivity"
+            android:label="DialogPlus" />
+           <activity
+            android:name="com.lyyj.activity.demo.dialog.dialogmultichoice.DialogMultiChoiceMainActivity"
+            />     
+          <activity
+            android:name="com.lyyj.activity.demo.dialog.frameanimation.RuningManActivity"
+            android:label="@string/app_name" >
+        </activity>      
+        
+        <activity
+            android:name="com.lyyj.activity.demo.expandlistview.ExpandListViewSetsActivity"
+            android:label="史上最全ExpandlistView合集" />
+        <activity
+            android:name="com.lyyj.activity.demo.expandlistview.gridview.ExpandListViewGridViewActivity"
+            android:label="ExpandListViewGridViewActivity" >
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.expandlistview.slideexpandable.sample.SlideExpandListViewExampleActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.expandlistview.unlimitedtree.TreeActivity"
+                  android:label="@string/app_name">
+        </activity>        
+         <activity
+            android:name="com.lyyj.activity.demo.expandlistview.timelinestory.TimeLineStoryMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.expandlistview.iphonetreeview.IphoneTreeViewMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+                       
+         <activity
+            android:name="com.lyyj.activity.demo.listview.ListViewSetsActivity"
+            android:label="史上最全listView合集" />
+    
+      <activity android:name="com.lyyj.activity.demo.listview.indexablelistview.IndexableListViewActivity"
+                  android:label="indexablelistview">
+        </activity>    
+        <activity
+            android:name="com.lyyj.activity.demo.listview.pinnedsectionlistview.examples.PinnedSectionListActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.listview.stickylistheaders.sample.StickyListHeadersActivity"
+            android:label="@string/app_name">
+        </activity> 
+         <activity android:name="com.lyyj.activity.demo.listview.swipelistview.sample.activities.SwipeListViewExampleActivity">
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.listview.swipelistview.sample.activities.SettingsActivity" 
+            android:windowSoftInputMode="stateAlwaysHidden"/>       
+          <activity
+            android:name="com.lyyj.activity.demo.listview.arclistview.ArcListViewMainActivity"
+            android:label="@string/app_name" >
+        </activity>      
+          <activity
+            android:name="com.lyyj.activity.demo.listview.fragmentgoodscategory.ListViewFragmentGoodsCategoryMainActivity"
+            android:label="@string/app_name" >
+        </activity>      
+        <activity
+            android:name="com.lyyj.activity.demo.listview.letter.LetterListViewMainActivity"
+            android:label="@string/app_name" >
+        </activity>        
+         <activity
+            android:name="com.lyyj.activity.demo.listview.multichoice.ListViewMultiChoiceMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.listview.parallax.ParallaxListViewActivity"
+            android:label="@string/app_name" >
+        </activity>       
+         <activity
+            android:name="com.lyyj.activity.demo.listview.swipemenulistview.sample.SwipeMenuListViewMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.listview.swipemenulistview.sample.SimpleActivity" >
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.listview.swipemenulistview.sample.DifferentMenuActivity" >
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.listview.multichoicewithiconandpreviewgrid.MultiChoiceWithIconAndPreviewGridMainActivity"
+            android:label="@string/app_name" >
+        </activity>        
+
+         
+        <activity
+            android:name="com.lyyj.activity.demo.edittext.accountautocomp.sample.AccountAutoCompleteEditTextActivity"
+            android:label="account auto complete" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.imageprocess.ImageProcessSetsActivity"
+            android:label="imageprocesssets" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.imageprocess.blureffects.BlurEffectsActivity"
+            android:label="blureffects" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.imageprocess.facecropper.sample.FaceCropperActivity"
+            android:label="facecropper" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.imageprocess.opallinone.ImageActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.imageprocess.opallinone.Image" />
+        <activity android:name="com.lyyj.activity.demo.imageprocess.opallinone.ImageToneActivity" />
+        <activity android:name="com.lyyj.activity.demo.imageprocess.opallinone.ChooseImage" />
+        <activity android:name="com.lyyj.activity.demo.imageprocess.opallinone.ImageCrop" />
+        <activity android:name="com.lyyj.activity.demo.imageprocess.opallinone.SketchActivity" />
+         <activity
+            android:name="com.lyyj.activity.demo.imageprocess.stackblur.StackBlurMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        
+        
+        
+        
+        
+        
+        <activity
+            android:name="com.lyyj.activity.demo.textview.TextViewSetsActivity"
+            android:label="babushkatext" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.textview.babushkatext.BabushkaTextActivity"
+            android:label="babushkatext" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.textview.expandabletextview.sample.ExpandableTextViewDemoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.textview.flowtextview.sample.FlowTextViewActivity"
+            android:label="FlowTextView Demo" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.textview.fontcustom.FontCustomActivity"
+            android:label="FontCustomActivity" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.textview.demo.TextViewJumpingBeansActivity"
+            android:label="jumpingBeans" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.textview.demo.TextViewMatchViewActivity"
+            android:label="matchview" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.textview.multipletextview.MultipleTextViewActivity"
+            android:label="multipleTextView" >
+        </activity>
+        
+         <activity
+            android:name="com.lyyj.activity.demo.textview.myannouncementview.AnnouncementViewMainActivity"
+            android:label="@string/app_name" >
+        </activity>       
+         <activity
+            android:name="com.lyyj.activity.demo.textview.shimmer.ShimmerMainActivity"
+            android:label="@string/app_name" >
+        </activity>       
+        
+        
+        <activity
+            android:name="com.lyyj.activity.demo.gridview.GridViewSetsActivity"
+            android:label="gridviewsets" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.gridview.gappsdraggridview.GoogleAppsMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/lyyj_gridview_gapps_google_launcher"
+            android:label="gappsdraggridview"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+   <activity
+            android:name="com.lyyj.activity.demo.gridview.horizontal.activity.GridViewHorizontalMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        
+                <activity
+            android:name="com.lyyj.activity.demo.progressbar.ProgressBarSetsActivity"
+            android:label="progress bar full"/>  
+           <activity
+            android:name="com.lyyj.activity.demo.progressbar.smoothprogressbar.sample.SmoothProgressBarMainActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.lyyj.activity.demo.progressbar.smoothprogressbar.sample.MakeCustomActivity"
+            android:label="Make your own"/>     
+          <activity
+            android:label="@string/app_name"
+            android:name="com.lyyj.activity.demo.progressbar.progressbarwheel.ProgressBarWheelActivity" >
+        </activity>      
+         <activity
+            android:name="com.lyyj.activity.demo.progressbar.customloading.ProgressBarCustomLoadingMainActivity"
+            android:label="@string/app_name" >
+        </activity>       
+         <activity
+            android:name="com.lyyj.activity.demo.progressbar.holocircular.ProgressBarHoloCircularProgressMainActivity"
+            android:label="@string/app_name" >
+        </activity>   
+        <activity
+            android:name="com.lyyj.activity.demo.progressbar.number.ProgressBarNumber"
+            android:label="NumberProgressBar" >
+        </activity>  
+         <activity
+            android:name="com.lyyj.activity.demo.progressbar.roundcorner.ProgressBarRoundCornerMainActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.progressbar.circleround.ProgressBarCircleRoundMainActivity"
+          >
+        </activity>  
+         <activity             
+           android:name="com.lyyj.activity.demo.progressbar.circlepedometer.ProgressBarCirclePedometerMainActivity"
+            android:label="@string/app_name" >
+        </activity>         
+         <activity
+            android:name="com.lyyj.activity.demo.progressbar.circlerainbow.RainbowProgressBarMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+         
+         
+      <activity
+                android:name="com.lyyj.activity.demo.gallery.GallerySetsActivity"
+                >
+        </activity>       
+               <activity
+            android:name="com.lyyj.activity.demo.gallery.staggeredgridview.StaggeredGridViewActivity"/>     
+             <activity
+                android:name = "com.lyyj.activity.demo.gallery.staggeredgridview.creditsrolldemo.CreditScrollMainActivity"
+                >
+        </activity> 
+  <activity
+            android:name="com.lyyj.activity.demo.gallery.fancycoverflow.samples.FancyCoverFlowMainActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        
+            <activity android:name="com.lyyj.activity.demo.gallery.fancycoverflow.samples.example.SimpleExample"
+            android:label="@string/activity_label_simple" />
+            <activity android:name="com.lyyj.activity.demo.gallery.fancycoverflow.samples.example.ViewGroupExample"
+            android:label="@string/activity_label_viewgroup" />   
+            <activity android:name="com.lyyj.activity.demo.gallery.fancycoverflow.samples.example.ViewGroupReflectionExample"
+            android:label="@string/activity_label_viewgroupreflection" />
+            <activity android:name="com.lyyj.activity.demo.gallery.fancycoverflow.samples.example.XmlInflateExample"
+            android:label="@string/activity_label_inflate_xml" />
+         <activity
+            android:name="com.lyyj.activity.demo.gallery.multichoice.ImagePickerMultiChoiceMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.lyyj.activity.demo.gallery.multichoice.CustomGalleryActivity" >
+            <intent-filter>
+                <action android:name="luminous.ACTION_PICK" />
+                <action android:name="luminous.ACTION_MULTIPLE_PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>           
+         <activity
+            android:name="com.lyyj.activity.demo.gallery.imageslider.slider.demo.ImageSliderMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+                   
+            
+         <activity
+                android:name="com.lyyj.activity.demo.toast.ToastSetsActivity"
+                />             
+         <activity
+            android:name="com.lyyj.activity.demo.toast.messagebar.samples.MessageBarSampleActivity"
+            android:label="@string/app_name">
+        </activity>  
+          <activity
+            android:name="com.lyyj.activity.demo.toast.niftynotification.NiftyNotificationActivity"
+            android:label="@string/app_name">
+        </activity>              
+        
+       <activity android:name="com.lyyj.activity.demo.specialview.SpecialViewSetsActivity"/>      
+          <activity
+            android:name="com.lyyj.activity.demo.specialview.bubblelayout.BubbleLayoutMainActivity"
+            android:label="@string/app_name" >
+        </activity>           
+          <activity
+            android:name="com.lyyj.activity.demo.specialview.seismicwaveview.SeismicWaveMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.specialview.shapeloading.ShapeLoadingMainActivity"
+            android:label="@string/app_name" >
+        </activity>   
+          <activity
+            android:name="com.lyyj.activity.demo.specialview.fivehundredpxblurview.BlurView500pxMainActivity"
+            android:label="@string/app_name" >
+        </activity>            
+          <activity
+            android:name="com.lyyj.activity.demo.specialview.cardview.CardViewMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity android:name="com.lyyj.activity.demo.specialview.circularprogressdrawable.CircularProgressDrawableMainActivity">
+        </activity>               
+        <activity
+            android:name="com.lyyj.activity.demo.specialview.jellyviewpager.JellyViewPagerMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.lyyj.activity.demo.specialview.cardsui.example.CardMainActivity"
+            android:label="cardsui" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.specialview.pathmenuclockview.ui.activities.PublicActivity"
+            android:label="@string/app_name" />       
+        <activity android:name="com.lyyj.activity.demo.specialview.wheel.demo.WheelDemo" >
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.specialview.wheel.demo.TimeActivity"
+            android:label="Time" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="kankan.wheel.WHEEL_SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.specialview.wheel.demo.Time2Activity"
+            android:label="Time 2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="kankan.wheel.WHEEL_SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.specialview.wheel.demo.DateActivity"
+            android:label="Date" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="kankan.wheel.WHEEL_SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.specialview.wheel.demo.PasswActivity"
+            android:label="Password" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="kankan.wheel.WHEEL_SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.specialview.wheel.demo.SlotMachineActivity"
+            android:label="Slot Machine" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="kankan.wheel.WHEEL_SAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.specialview.wheel.demo.CitiesActivity"
+            android:label="Cities" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="kankan.wheel.WHEEL_SAMPLE" />
+            </intent-filter>
+        </activity>  
+        
+        
+        
+        
+        <activity android:name="com.lyyj.activity.demo.guide.GuideSetsActivity"/>              
+          <activity
+            android:name="com.lyyj.activity.demo.guide.xhsreglogin.XhsWelcomeActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>        
+         <activity
+            android:name="com.lyyj.activity.demo.guide.linkedviewpager.LinkedViewPagerActivity"
+            android:label="@string/app_name">
+        </activity>         
+         <activity
+            android:name="com.lyyj.activity.demo.guide.guidefourways.GuideFourWaysMainActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" 
+            android:theme="@style/activityThemeNoTitle">
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.guide.guidefourways.SuccessLaunchActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" 
+            android:theme="@style/activityThemeNoTitle"/>
+        <activity android:name="com.lyyj.activity.demo.guide.guidefourways.activity.scrollView.ScollerViewActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" 
+            android:theme="@style/activityThemeNoTitle"/>
+        <activity android:name ="com.lyyj.activity.demo.guide.guidefourways.activity.splash.SplashActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" 
+            android:theme="@style/activityThemeNoTitle"
+           />
+          <activity android:name="com.lyyj.activity.demo.guide.guidefourways.activity.viewFlipper.ViewFlipperActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" 
+            android:theme="@style/activityThemeNoTitle"/>
+        <activity android:name ="com.lyyj.activity.demo.guide.guidefourways.activity.viewPage.ViewPagerActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" 
+            android:theme="@style/activityThemeNoTitle"
+           />      
+  <activity
+            android:name="com.lyyj.activity.demo.guide.viewpagerdooropen.ViewPagerDoorOpenAppstart"
+            android:theme="@style/Anim_style2" >
+        </activity>
+        
+        <activity
+            android:name="com.lyyj.activity.demo.guide.viewpagerdooropen.Viewpager" android:theme="@style/Anim_style2">           
+        </activity>
+        <activity
+            android:name="com.lyyj.activity.demo.guide.viewpagerdooropen.Viewdoor" android:theme="@style/Anim_style2">           
+        </activity>
+        
+        <activity
+            android:name="com.lyyj.activity.demo.guide.viewpagerdooropen.Main" android:theme="@style/Anim_style_title" >           
+        </activity>
+        
+        <activity
+            android:name="com.lyyj.activity.demo.guide.viewpagerdooropen.Exit" android:theme="@style/MyDialogStyle" >           
+        </activity>        
+         
+         <activity
+            android:name="com.lyyj.activity.demo.imageview.ImageViewSetsActivity"
+            android:label="@string/app_name" >
+        </activity>            
+         <activity
+            android:name="com.lyyj.activity.demo.imageview.customshape.meg7.samples.ImageViewCustomShapeSamplesActivity"
+            android:label="@string/app_name" >
+        </activity>        
+         <activity
+            android:name="com.lyyj.activity.demo.imageview.flipimageview.FlipImageViewSampleActivity"
+            android:label="@string/app_name">
+        </activity>        
+         <activity
+            android:name="com.lyyj.activity.demo.imageview.autoresize.MasaccioAutoResizeDemoActivity"
+            android:label="@string/app_name">
+        </activity>
+          <activity
+            android:name="com.lyyj.activity.demo.imageview.roundrunning.RoundRunningMainActivity"
+            android:label="@string/app_name" >
+        </activity> 
+         <activity
+            android:name="com.lyyj.activity.demo.imageview.loadingcircle.LoadingCircleMainActivity"
+            android:label="@string/app_name" >
+        </activity>        
+         
+        <activity android:name="com.lyyj.activity.demo.popup.PopupSetsActivity"/>              
+          <activity
+            android:name="com.lyyj.activity.demo.popup.weixin.PopupWeixinDemoActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>           
+          <activity
+            android:name="com.lyyj.activity.demo.popup.uc.PopupUCDemoActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity> 
+          <activity
+            android:name="com.lyyj.activity.demo.popup.bottom.PopupBottomDemoActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>                 
+         
+         
+         
+        <activity
+            android:name="com.appfocusbase.main.MainActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DemoMainActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DialogActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.ImageDownActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.AnimationActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.UIElementActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.CityListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DemoAbActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DBInsideSampleActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DBSDSampleActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DBOne2OneActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DBOne2ManyActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DBObjectActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.TitleBarActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.ThreadControlActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.TabActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.TabTopActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.TabBottomActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DownListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.db.activity.DBActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.PullToRefreshActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.ChartActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.PullToRefreshListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.PullToRefreshGridActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingButtonActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingPlayViewActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingLeftActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.WelcomeActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.XYLineChartActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.XYBarChartActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.PieChartActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.TimeChartActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.XYAreaChartActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.LevelChartActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.WheelActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.CropImageActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.AddPhotoActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.CalendarActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.PHashActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.PullToRefreshViewActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.PullToRefreshMultiColumnListActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuLeftActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuRightActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuLeftRightActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuZoomActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuSlideActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuScaleActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuTitleHoldActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.CarouselActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.CarouselImageActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.CarouselViewActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.ProgressBarActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.ProgressBarCircleActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.ProgressBarHorizontalActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.IocViewActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.Rotate3DActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.Rotate3DActivity1"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.Rotate3DActivity2"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.HttpActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SoapActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.NestScrollActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.ListNestViewPagerActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuNestViewPagerActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SceneActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.AnalogClockActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.NumberClockActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.DeskCalendarActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.PopoverActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.demo.activity.SlidingMenuNestTabActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.blog.WebActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.login.LoginActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.login.RegisterActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.login.AgreementActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.login.FindPwdActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.appfocusbase.login.AboutActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".im.activity.ContacterActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".im.activity.ChatActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".im.activity.MessageActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="com.kfb.c.Kf"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kfb.a.Qim"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- push service client -->
+        <receiver android:name=".im.receiver.IMMessageReceiver" >
+            <intent-filter>
+
+                <!-- 接收消息 -->
+                <action android:name="com.appfocusbase.action.NEW_MESSAGE" />
+                <action android:name="com.appfocusbase.action.CHAT_MESSAGE" />
+                <action android:name="com.appfocusbase.action.SYS_MESSAGE" />
+                <!-- 收到好友邀请 -->
+                <action android:name="com.appfocusbase.action.ROSTER_SUBSCRIBE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 联系人服务 -->
+        <service android:name=".im.service.IMContactService" >
+        </service>
+        <!-- 聊天服务 -->
+        <service android:name=".im.service.IMChatService" >
+        </service>
+        <!-- 系统消息服务 -->
+        <service android:name=".im.service.IMSystemMsgService" >
+        </service>
+        <!-- 重连接服务 -->
+        <service android:name=".im.service.ReConnectService" >
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="播放" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play"
+        android:gravity="center"
+        android:text="停止" />
+
+    <com.lyyj.activity.demo.imageview.roundrunning.RoundImageView
+        android:id="@+id/infoOperating"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lyyj_iv_roundrunning_girl"
+        imagecontrol:roundrunnig_border_inside_color="#fff7f2e9"
+        imagecontrol:roundrunnig_border_outside_color="#ffd5d1c8"
+        imagecontrol:roundrunnig_border_thickness="2dp" />
+
+</RelativeLayout>

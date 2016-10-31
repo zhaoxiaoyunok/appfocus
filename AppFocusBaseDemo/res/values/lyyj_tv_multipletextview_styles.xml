@@ -1,0 +1,17 @@
+<resources>
+
+
+	<declare-styleable name="MyView">  
+        <attr name="textColorMultiple" format="color"/>  
+        <attr name="textSizeMultiple"  format="dimension"/>
+        <attr name="textWordMarginMultiple"  format="dimension"/>
+        <attr name="textLineMarginMultiple"  format="dimension"/>
+        <attr name="textBackgroundMultiple" format="integer" />
+        
+        <attr name="textPaddingLeftMultiple"  format="dimension"/>
+        <attr name="textPaddingRightMultiple"  format="dimension"/>
+        <attr name="textPaddingTopMultiple"  format="dimension"/>
+        <attr name="textPaddingBottomMultiple"  format="dimension"/>
+    </declare-styleable>
+
+</resources>

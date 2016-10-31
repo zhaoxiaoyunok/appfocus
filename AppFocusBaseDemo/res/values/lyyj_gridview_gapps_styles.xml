@@ -1,0 +1,10 @@
+<resources>
+
+
+<style name="mytheme" parent="android:style/Theme.Dialog">
+ <item name="android:windowNoTitle">true</item>   
+ <item name="android:windowBackground">@drawable/lyyj_gridview_gapps_bg_dialog</item>   
+ <item name="android:windowIsTranslucent">true</item> 
+ <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+</style>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <Button
+        android:id="@+id/lyyj_et_button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="小红书功能向导及注册登录动画" />
+
+    <Button
+        android:id="@+id/lyyj_et_button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="LinkedViewPager向导" />
+
+    <Button
+        android:id="@+id/lyyj_et_button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="GuideFourWays" />
+
+    <Button
+        android:id="@+id/lyyj_et_button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="仿微信功能引导加开门动画ViewPagerDoorOpen" />
+
+    <Button
+        android:id="@+id/lyyj_et_button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="CardView卡片式列表" />
+
+    <Button
+        android:id="@+id/lyyj_et_button6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="CircularProgressDrawable圆形进度图片" />
+
+    <Button
+        android:id="@+id/lyyj_et_button7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="wheel" />
+
+
+</LinearLayout>

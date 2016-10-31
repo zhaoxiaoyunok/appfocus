@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FancyButtonsAttrs">
+        <attr name="defaultColorFancyButtons" format="color"  />
+        <attr name="textFancyButtons" format="string"  />
+
+        <attr name="textColorFancyButtons" format="color"  />
+        <attr name="iconColorFancyButtons" format="color"  />
+
+        <attr name="textFontFancyButtons" format="string"  />
+        <attr name="iconFontFancyButtons" format="string"  />
+
+        <attr name="textSizeFancyButtons" format="dimension"  />
+        <attr name="iconResourceFancyButtons" format="integer"  />
+        <attr name="fontIconResourceFancyButtons" format="string"  />
+        <attr name="fontIconSizeFancyButtons" format="dimension"  />
+        <attr name="iconPositionFancyButtons" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+
+        <attr name="textPositionFancyButtons" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+
+        <attr name="textGravityFancyButtons" format="enum">
+            <enum name="top" value="0x30" />
+            <enum name="bottom" value="0x50" />
+            <enum name="left" value="0x03" />
+            <enum name="right" value="0x05" />
+            <enum name="center_vertical" value="0x10" />
+            <enum name="fill_vertical" value="0x70" />
+            <enum name="center_horizontal" value="0x01" />
+            <enum name="fill_horizontal" value="0x07" />
+            <enum name="center" value="0x11" />
+            <enum name="fill" value="0x77" />
+            <enum name="clip_vertical" value="0x80" />
+            <enum name="clip_horizontal" value="0x08" />
+            <enum name="start" value="0x00800003" />
+            <enum name="end" value="0x00800005" />
+        </attr>
+
+        <attr name="iconPaddingLeftFancyButtons" format="dimension" />
+        <attr name="iconPaddingRightFancyButtons" format="dimension" />
+        <attr name="iconPaddingTopFancyButtons" format="dimension" />
+        <attr name="iconPaddingBottomFancyButtons" format="dimension" />
+
+        <attr name="borderColorFancyButtons" format="color" />
+        <attr name="borderWidthFancyButtons" format="dimension"/>
+        <attr name="focusColorFancyButtons" format="color" />
+        <attr name="radiusFancyButtons" format="dimension" />
+    </declare-styleable>
+
+</resources> 

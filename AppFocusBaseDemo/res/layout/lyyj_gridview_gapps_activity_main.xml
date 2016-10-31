@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/background" 
+    android:layout_width="match_parent" 
+    android:layout_height="256dp"
+    android:layout_gravity="center"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lyyj.activity.demo.gridview.gappsdraggridview.DragLayer android:layout_width="match_parent" 
+        android:layout_height="match_parent" 
+        android:background="@android:color/transparent" 
+        android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_gravity="center" 
+            android:orientation="vertical" 
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent">
+          <RelativeLayout android:layout_gravity="center" 
+            android:orientation="horizontal" 
+            android:gravity="center"
+             android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+             android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"            
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content">  
+                <ImageView android:layout_gravity="center" 
+		        android:id="@+id/item_image" 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:scaleType="centerCrop" 
+		        android:src="@drawable/lyyj_gridview_gapps_create_shortcut" 
+		        android:layout_centerVertical="true" />        
+           	 <TextView android:textSize="20.0sp" 
+                android:textColor="@android:color/white"   
+                android:layout_toRightOf="@id/item_image"     
+                android:layout_toEndOf="@id/item_image"       
+                android:gravity="center"
+                 android:id="@+id/hittip" 
+                 android:layout_width="match_parent" 
+                 android:layout_height="48dp"              
+                 android:text="@string/hittip" 
+                 />
+                    </RelativeLayout>
+            <com.lyyj.activity.demo.gridview.gappsdraggridview.DragGridView android:gravity="center" 
+                android:id="@+id/dragGridView" 
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent" 
+                android:layout_marginTop="30.0dip" 
+                android:listSelector="@android:color/transparent" 
+                android:cacheColorHint="@android:color/transparent" 
+                android:horizontalSpacing="15.0dip" 
+                android:verticalSpacing="25.0dip" 
+                android:columnWidth="90.0dip" 
+                android:numColumns="4" />
+        </LinearLayout>
+    </com.lyyj.activity.demo.gridview.gappsdraggridview.DragLayer>
+</RelativeLayout>

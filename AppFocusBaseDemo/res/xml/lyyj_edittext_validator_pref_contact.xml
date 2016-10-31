@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:validatingEditText="http://schemas.android.com/apk/res/res-auto" >
+
+	<com.lyyj.activity.demo.edittext.validator.widget.ValidatingEditTextPreference
+		android:capitalize="words"
+		android:ems="10"
+		android:hint="@string/full_name_hint"
+		android:inputType="textPersonName"
+		android:key="full_name"
+		android:maxLines="1"
+		android:selectAllOnFocus="true"
+		android:singleLine="true"
+		android:title="@string/full_name"
+		customRegexp="(\\b.+?\\b ?){2,}"
+		 emptyAllowed="false"
+		 emptyErrorString="@string/required_fullname_message"
+		 testErrorString="@string/invalid_fullname_message"
+		 testType="regexp" />
+	<com.lyyj.activity.demo.edittext.validator.widget.ValidatingEditTextPreference
+		android:ems="10"
+		android:hint="@string/address_hint"
+		android:inputType="textPostalAddress|textMultiLine|textAutoComplete"
+		android:key="address"
+		android:selectAllOnFocus="true"
+		android:title="@string/address_label" />
+	<com.lyyj.activity.demo.edittext.validator.widget.ValidatingEditTextPreference
+		android:ems="10"
+		android:hint="@string/phone_number_hint"
+		android:inputType="phone"
+		android:key="phone_number"
+		android:maxLines="1"
+		android:selectAllOnFocus="true"
+		android:title="@string/phone_number_label"
+		 emptyAllowed="false"
+		 testType="phone" />
+	<com.lyyj.activity.demo.edittext.validator.widget.ValidatingEditTextPreference
+		android:ems="10"
+		android:hint="@string/email_hint"
+		android:inputType="textEmailAddress"
+		android:key="email"
+		android:maxLines="1"
+		android:selectAllOnFocus="true"
+		android:title="@string/email_label"
+		 emptyAllowed="true"
+		 testErrorString="@string/invalid_email_message"
+		 testType="email" />
+
+</PreferenceScreen>

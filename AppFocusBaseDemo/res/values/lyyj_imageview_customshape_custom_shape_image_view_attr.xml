@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomShapeImageView">
+        <attr name="ivshape" format="integer">
+            <enum name="ivcircle" value="1" />
+            <enum name="ivrectangle" value="2" />
+            <enum name="ivsvg" value="3" />
+        </attr>
+        
+        <attr name="svg_raw_resource" format="reference" />
+        
+    </declare-styleable>
+
+</resources>

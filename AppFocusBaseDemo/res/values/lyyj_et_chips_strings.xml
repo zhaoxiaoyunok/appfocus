@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChipsEditTextDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+      <string-array name="country">
+        <item >India</item>
+        <item>United States</item>
+        <item>Canada</item>
+        <item>Australia</item>
+        <item>United Kingdom</item>
+        <item>Philippines</item>
+        <item >Japan</item>
+        <item>Italy</item>
+        <item>Germany</item>
+        <item>Russia</item>
+        <item>Malaysia</item>
+        <item>France</item>
+        <item>Sweden</item>
+        <item>New Zealand</item>
+        <item>Singapore</item>
+    </string-array>
+    
+     <integer-array name="flags">
+         <item>@drawable/lyyj_et_chips_india</item>
+         <item>@drawable/lyyj_et_chips_unitedstates</item>
+         <item>@drawable/lyyj_et_chips_canada</item>
+         <item>@drawable/lyyj_et_chips_australia</item>
+         <item>@drawable/lyyj_et_chips_unitedkingdom</item>
+         <item>@drawable/lyyj_et_chips_philippines</item>
+         <item>@drawable/lyyj_et_chips_japan</item>
+         <item>@drawable/lyyj_et_chips_italy</item>
+         <item>@drawable/lyyj_et_chips_germany</item>
+         <item>@drawable/lyyj_et_chips_russia</item>
+         <item>@drawable/lyyj_et_chips_malaysia</item>
+         <item>@drawable/lyyj_et_chips_france</item>
+         <item>@drawable/lyyj_et_chips_sweden</item>
+         <item>@drawable/lyyj_et_chips_newzealand</item>
+         <item>@drawable/lyyj_et_chips_singapore</item>
+     </integer-array> 
+      
+        <string name="getvalue">Get Value</string>
+        <string name="selectedcountries">Selected Countries</string>
+    
+</resources>

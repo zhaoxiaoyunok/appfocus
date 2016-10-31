@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <Button
+        android:id="@+id/lyyj_et_button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="BlurEffects" />
+
+    <Button
+        android:id="@+id/lyyj_et_button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="FaceCropper" />
+
+    <Button
+        android:id="@+id/lyyj_et_button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="ImageOperation AllInOne" />
+
+    <Button
+        android:id="@+id/lyyj_et_button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="stackblur模糊度可调整" />
+
+    <Button
+        android:id="@+id/lyyj_et_button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="Radial" />
+
+    <Button
+        android:id="@+id/lyyj_et_button6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="satellite" />
+
+    <Button
+        android:id="@+id/lyyj_et_button7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="wheel" />
+
+
+</LinearLayout>

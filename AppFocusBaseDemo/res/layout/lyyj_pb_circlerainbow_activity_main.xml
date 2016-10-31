@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@color/white" >
+
+    <!-- 最后一行是粗细 -->
+    <com.lyyj.activity.demo.progressbar.circlerainbow.CircularProgress
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true" 
+        app:borderWidthRB="6dp"/>
+
+</RelativeLayout>

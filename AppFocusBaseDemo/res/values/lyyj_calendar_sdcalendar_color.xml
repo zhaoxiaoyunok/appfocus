@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="cell_disabled">#eee</color>
+
+
+    <color name="sky_blue">#FFA3E8F7</color>
+    <color name="light_blue">#ff33b5e5</color>
+    <color name="dark_blue">#ff33b5e5</color>
+
+    
+    <color name="light_gray">#ccc</color>
+
+    <color name="darker_gray">#aaa</color>
+
+</resources>

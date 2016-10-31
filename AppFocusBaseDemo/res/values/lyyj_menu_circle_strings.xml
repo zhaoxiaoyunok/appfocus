@@ -1,0 +1,13 @@
+<resources>
+
+
+
+
+    <string name="title_one">飞机</string>
+    <string name="title_two">人员</string>
+    <string name="title_three">日历</string>
+    <string name="title_four">设置</string>
+    <string name="title_five">沟通</string>
+    <string name="title_six">询问</string>
+
+</resources>

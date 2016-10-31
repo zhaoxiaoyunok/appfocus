@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <Button
+        android:id="@+id/lyyj_et_button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="segmentRadio段选" />
+
+    <Button
+        android:id="@+id/lyyj_et_button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="bootstrap" />
+
+    <Button
+        android:id="@+id/lyyj_et_button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="带进度条的按钮fabbutton" />
+
+    <Button
+        android:id="@+id/lyyj_et_button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="FancyButtons" />
+
+    <Button
+        android:id="@+id/lyyj_et_button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="ProcessButton带进度按钮" />
+
+    <Button
+        android:id="@+id/lyyj_et_button6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="CircleButton圆形颜色背景加图片" />
+
+    <Button
+        android:id="@+id/lyyj_et_button7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="RippleView Android L风格带点击动画按钮" />
+
+
+</LinearLayout>

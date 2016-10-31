@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_charming" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p1" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p2" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p3" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_b1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_b1" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_charming" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p1" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p2" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p3" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_b1" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_charming" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p1" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p2" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p3" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_b1" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_charming" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p1" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p2" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_p3" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_b1" />
+
+        <com.lyyj.activity.demo.anim.filleffect.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lyyj_anim_filleffect_charming" />
+    </LinearLayout>
+
+</LinearLayout>

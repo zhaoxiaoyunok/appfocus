@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <Button
+        android:id="@+id/lyyj_et_button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="form_validator输入格式判断" />
+
+    <Button
+        android:id="@+id/lyyj_et_button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="AccountAutoComplete帐号自动完成" />
+
+    <Button
+        android:id="@+id/lyyj_et_button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="ChipsEditText输入空格后前面输入变为整块，点击时选择输入或成块删除，另输入india等可自动完成并显示国旗" />
+
+    <Button
+        android:id="@+id/lyyj_et_button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="MenuDrawer" />
+
+    <Button
+        android:id="@+id/lyyj_et_button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="Radial" />
+
+    <Button
+        android:id="@+id/lyyj_et_button6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="satellite" />
+
+    <Button
+        android:id="@+id/lyyj_et_button7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="wheel" />
+
+
+</LinearLayout>

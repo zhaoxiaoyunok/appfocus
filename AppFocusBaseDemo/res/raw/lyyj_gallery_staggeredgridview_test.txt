@@ -1,0 +1,103 @@
+0x18 :C 拨号盘， w 短信， e 浏览器，o camera ，M 邮件
+0x16 :C 拨号盘，e 浏览器，M email
+11 days ago	zhaoxiaoyun	zhaoxy modify 141022 SFZOPTSDTKK-1开启存储共享后连接USB默认进入MTP模式 S501_PT_SDT	commit | commitdiff | tree | snapshot
+2014-10-15	zhaoxiaoyun	zhaoxy modify 141015 预置Chrome浏览器	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014 Chrome浏览器更新	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014 所有手机型号名称相关：bt,wifi,wifidirect...	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014更新版本号	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014 恢复android默认的锁屏背景/墙纸/开机logo	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014 客户需求桌面小部件预置修改	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014客户需求增加谷歌应用Chrome/GoogleBooks/PlayGames	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014 客户需求预置第三方应用FacebookMessenger与Twitter	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014 客户需求邮件签名定制	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014 客户需求浏览器导航与书签预置客户网站sdt.pt	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy 141014 客户需求无操作休眠时间调整为30秒	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014 客户需求手机存储与内部存储合并共享	commit | commitdiff | tree | snapshot
+2014-10-14	zhaoxiaoyun	zhaoxy modify 141014 桌面数字时钟小部件还原为可调整大小的部件	commit | commitdiff | tree | snapshot
+2014-10-13	yangsonglin	modify s500_pt_wow_sdt config	commit | commitdiff | tree | snapshot
+2014-10-13	caoqiaofeng	caoqiaofeng new S501_PT_SDT branch 20141013	commit | commitdiff | tree | snapshot
+2014-09-24	zhouxiang	zx modify 20140912 增加充电时充电IC的满电检测次数，避免IC出现概率满电误检. master	commit | commitdiff | tree | snapshot
+2014-09-04	zhaoxiaoyun	zhaoxy modify 140904 SFZZPTWOW-108数字时钟小部件可以显示在小部件列表中	commit | commitdiff | tree | snapshot
+2014-09-03	zhaoxiaoyun	zhaoxy modify 140903 SFZZPTWOW-82视频通话通话过程中，按返回键退出视频通话界面...	commit | commitdiff | tree | snapshot
+2014-09-03	zhaoxiaoyun	zhaoxy modify 140903 SFZZPTWOW-88后台运行秒表，手机开关机后，进入秒表界面红色...	commit | commitdiff | tree | snapshot
+2014-09-03	zhaoxiaoyun	zhaoxy modify 140903 SFZZPTWOW-86邮件更新频率葡萄牙语翻译	commit | commitdiff | tree | snapshot
+2014-08-29	caoqiaofeng	caoqiaofeng modiyf 更新外部版本号V1.3 20140829	commit | commitdiff | tree | snapshot
+2014-08-29	caoqiaofeng	caoqiaofeng add userdata分区改为3G	commit | commitdiff | tree | snapshot
+2014-08-18	zhaoxiaoyun	userdata分区还原为924MB	commit | commitdiff | tree | snapshot
+2014-08-18	zhaoxiaoyun	zhaoxy modify 140818 资源编译错误SFZOTKES-21待机界面添加音乐小部件，音乐小部件...	commit | commitdiff | tree | snapshot
+2014-08-16	zhaoxiaoyun	zhaoxy add 140816 SFZZPTWOW-68长按拨号数字弹出提示语_按HOME键退出_切换语言...	commit | commitdiff | tree | snapshot
+2014-08-16	zhaoxiaoyun	zhaoxy modify 140606 SFZOTKES-21待机界面添加音乐小部件，音乐小部件无上一首图标...	commit | commitdiff | tree | snapshot
+2014-08-16	zhaoxiaoyun	SFZZROND-124短信设置-编辑常用短语中，自定义添加的常用短语还原默认设置后不会被清除	commit | commitdiff | tree | snapshot
+2014-08-16	zhaoxiaoyun	zhaoxy modify 140816 SFZZPTWOW-63 缅甸语下彩信中添加录音附件剩余时间少于1分...	commit | commitdiff | tree | snapshot
+2014-08-15	zhaoxiaoyun	zhaoxy modify 140815 SFZZPTW日历-menu-设置-常规设置-通知和提醒-提示音...	commit | commitdiff | tree | snapshot
+2014-08-15	zhaoxiaoyun	zhaoxy modify 140815 SFZZPTWOW-54待机界面，从第2至5页进入设置切换语言后...	commit | commitdiff | tree | snapshot
+2014-08-15	zhaoxiaoyun	更新内部版本号V1.3	commit | commitdiff | tree | snapshot
+2014-08-15	zhaoxiaoyun	zhaoxy modify 140815 SFZZPTWOW-56 情景模式中部分默认通知铃声重复，如Capt...	commit | commitdiff | tree | snapshot
+2014-08-15	zhaoxiaoyun	userdata分区改为3G	commit | commitdiff | tree | snapshot
+2014-08-07	zhaoxiaoyun	更新版本号V1.2	commit | commitdiff | tree | snapshot
+2014-08-07	zhaoxiaoyun	zhaoxy modify SFZZPTWOW-51 去掉google tts引擎，防止葡萄牙客户开机开启数据...	commit | commitdiff | tree | snapshot
+2014-08-07	zhaoxiaoyun	客户反馈情景模式来电铃声葡萄牙语翻译问题	commit | commitdiff | tree | snapshot
+2014-08-06	zhaoxiaoyun	zhaoxy modify 140806 SFZZPTWOW-6客户需求任意界面按HOME键都回到桌面默认页...	commit | commitdiff | tree | snapshot
+2014-08-05	zhaoxiaoyun	zhaoxy modify 140805 SFZZPTWOW-32 更改日期格式对下拉通知栏无效	commit | commitdiff | tree | snapshot
+2014-08-05	zhaoxiaoyun	zhaoxy modify 140805 SFZZPTWOW-24手机开机在解锁界面进入信息列表按返回键不能退出信息	commit | commitdiff | tree | snapshot
+2014-07-31	zhaoxiaoyun	zhaoxy modify 140731 SFZZPTWOW-8屏蔽默认的LatinIME输入法	commit | commitdiff | tree | snapshot
+2014-07-30	zhaoxiaoyun	客户提供的googlekeyboard.apk应使用其对应的lib	commit | commitdiff | tree | snapshot
+2014-07-30	zhaoxiaoyun	客户需求最新短信会话时间标记葡萄牙语翻译	commit | commitdiff | tree | snapshot
+2014-07-30	zhaoxiaoyun	zhaoxy modify 140730 SFZZPTWOW-9短信会话刚刚发送的短信时间标记，客户需求直接显...	commit | commitdiff | tree | snapshot
+2014-07-30	zhaoxiaoyun	手机关机菜单重启条目繁体及葡萄牙语翻译	commit | commitdiff | tree | snapshot
+2014-07-29	zhaoxiaoyun	音效增强BesAudEnh葡萄牙语翻译修改	commit | commitdiff | tree | snapshot
+2014-07-29	zhaoxiaoyun	zhaoxy modify 140729 SFZZPTWOW-8 客户需求预置葡萄牙语googlekeyboard	commit | commitdiff | tree | snapshot
+2014-07-29	zhaoxiaoyun	SFZZPTWOW-7葡萄牙客户反馈在开关飞行模式时phone模块一直重启	commit | commitdiff | tree | snapshot
+2014-07-29	zhaoxiaoyun	修正客户墙纸	commit | commitdiff | tree | snapshot
+2014-07-24	zhaoxiaoyun	状态栏快捷设置手势葡萄牙语翻译	commit | commitdiff | tree | snapshot
+2014-07-24	zhaoxiaoyun	自启动管理和应用程序权限设置葡萄牙语翻译	commit | commitdiff | tree | snapshot
+2014-07-24	zhaoxiaoyun	手势手套模式相关葡萄牙语翻译	commit | commitdiff | tree | snapshot
+2014-07-24	zhaoxiaoyun	SIM卡管理葡萄牙语翻译	commit | commitdiff | tree | snapshot
+2014-07-24	zhaoxiaoyun	SFZZPTWOW-6客户需求桌面默认显示五页,并且任意界面按HOME键都回到默认页	commit | commitdiff | tree | snapshot
+2014-07-24	zhaoxiaoyun	客户需求开机logo	commit | commitdiff | tree | snapshot
+2014-07-24	zhaoxiaoyun	zhaoxy modify 140724 SFZZPTWOW-5锁屏背景设置为一张固定图片	commit | commitdiff | tree | snapshot
+2014-07-24	zhaoxiaoyun	客户需求默认墙纸	commit | commitdiff | tree | snapshot
+2014-07-24	xuxiaojiang	xuxiaojiang modify 20140723 SFZOISAKKK-107 前置摄像头点击录像...	commit | commitdiff | tree | snapshot
+2014-07-23	zhaoxiaoyun	客户反馈相关名称改为S500	commit | commitdiff | tree | snapshot
+2014-07-19	zhaoxiaoyun	zhaoxy modify 140719 SFZOISAKKK-70开启无线显示后，进入情景模式中恢复默认设置...	commit | commitdiff | tree | snapshot
+2014-07-19	zhaoxiaoyun	zhaoxy modify 140719 SFZOTKES-139Gmail中以蓝牙分享图片后，在下拉通知栏查...	commit | commitdiff | tree | snapshot
+2014-07-18	zhaoxiaoyun	ALPS01620944_MALATA82_WE_KK_ALPS.KK1.MP1.V2.11_P20谷歌地图打开异常	commit | commitdiff | tree | snapshot
+2014-07-17	zhaoxiaoyun	zhaoxy modify 140717 SFZZPTWOW-4 所有名称相关：bt,wifi,wifidir...	commit | commitdiff | tree | snapshot
+2014-07-17	zhaoxiaoyun	更新版本号V1.1	commit | commitdiff | tree | snapshot
+2014-07-17	zhaoxiaoyun	caoqiaofeng modify MTSFETKK-50 删除编译时间相关的信息 20140717	commit | commitdiff | tree | snapshot
+2014-07-15	zhangjugang	zhangjugang lcd-解决nt35521唤醒时概率性花屏问题	commit | commitdiff | tree | snapshot
+2014-07-15	zhangjugang	zhangjugang lcd-lcd flash while writing IMEI in Meta...	commit | commitdiff | tree | snapshot
+2014-07-15	zhaoxiaoyun	zhaoxy add 140715 SFZOTKES-137蓝牙收发APK文件支持	commit | commitdiff | tree | snapshot
+2014-07-14	zhaoxiaoyun	zhaoxy modify 140711 SFZOTKES-128切换部分语言后，进入相机设置，点击避免闪烁异常	commit | commitdiff | tree | snapshot
+2014-07-14	xuxiaojiang	xuxiaojiang modify 20140714 SFZZBISCYKK-151 使用人脸美化功能后时有...	commit | commitdiff | tree | snapshot
+2014-07-10	xuxiaojiang	xuxiaojiang modify 20140710 SFZZPTWOW-3 check 舜宇的Camera...	commit | commitdiff | tree | snapshot
+2014-07-10	zhaoxiaoyun	zhaoxy modify 140710 SFZOISAKKK-89从LTR的系统语言切换为RTL的语言...	commit | commitdiff | tree | snapshot
+2014-07-10	zhaoxiaoyun	caoqiaofengg add SFZOTKES-87 增加智能翻转和智能来电音并增加葡萄牙语翻译	commit | commitdiff | tree | snapshot
+2014-07-09	zhaoxiaoyun	12830sunny照片尺寸配置与12830信利相同	commit | commitdiff | tree | snapshot
+2014-07-09	yangsonglin	Merge branch 'master' of 172.18.0.10:s500_pt_wow_kk	commit | commitdiff | tree | snapshot
+2014-07-09	yangsonglin	ysl 20140709 增加sunny12830支持	commit | commitdiff | tree | snapshot
+2014-07-09	zhaoxiaoyun	zhaoxy modify 140709 SFZZPTWOW-2 去掉浏览器中文导航网址和雅虎中文书签	commit | commitdiff | tree | snapshot
+2014-07-09	zhaoxiaoyun	zhaoxy modify 140709 SFZZPTWOW-1 数字时钟小部件固定大小以满足客户桌面预置需求	commit | commitdiff | tree | snapshot
+2014-07-09	zhaoxiaoyun	更新内部版本号	commit | commitdiff | tree | snapshot
+2014-07-09	zhaoxiaoyun	caoqiaofeng add SFZZ-187 增加输入指令*658*1#可查询内部版本 20140708	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify SFZOISAKKK-54中文状态下，短信存放位置为电话，建议改为手机	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140620 SFZOISAKKK-3去掉系统设置中的系统升级菜单	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140703 SFZZBISCYKK-54数字时钟小组件显示的日期格式与选择的日期...	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify for SFZZROND-38:编辑联系人，添加姓名拼音时，光标未定位在姓名拼音处	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify for SFZZROND-72 分享Gmail到编辑界面，收件人显示错误	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	yutianliang modify for SFZZBISCYKK-81 关闭开启国际拨号助手无区别	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	后摄最高像素显示与丝印保持一致为1300万；切换预览模式时对应的照片尺寸索引不变	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	去掉拍照向导后仍应可以使用语音控制拍照	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140617 SFZOTKES-63:设置为语音解锁且备份方式为图案后，冷屏执行e...	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140618 SFZOTKES-65拨号设置修改快速回复时光标应定位在末尾方便用户使用	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy comment 140618 SFZOTKES-68:去掉闹钟语音控制功能	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140618 SFZOTKES-70浏览器下载文件不能保存到OTG外部USB存储器上	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140626 SFZZBISCYKK-47开启定时开关机后，长按条目上下文菜单显示有误	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140626 SFZZBISCYKK-83为单个联系人设置来电铃声时，去掉...	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140702 SFZOISAKKK-88以色列希伯来语时联系人常用联系人条目不显示姓名	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140702 SFZOISAKKK-24设置屏幕锁定为语音解锁后启用小部件菜单消失	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140703 SFZOISAKKK-73浏览器中下载文件至外部USB存储器...	commit | commitdiff | tree | snapshot
+2014-07-07	zhaoxiaoyun	zhaoxy modify 140607 SFZOTKES-34桌面主菜单文件夹内图标文本最多显示两行...	commit | commitdiff | tree | snapshot
+2014-07-05	zhaoxiaoyun	zhaoxy modify 140705 增加手势手套相关繁体翻译	commit | commitdiff | tree | snapshot
+2014-07-04	zhaoxiaoyun	按客户要求定制桌面小部件文件夹应用程序图标等	commit | commitdiff | tree | snapshot
+next

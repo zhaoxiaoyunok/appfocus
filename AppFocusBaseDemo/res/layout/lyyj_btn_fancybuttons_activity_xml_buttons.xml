@@ -1,0 +1,452 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+
+    <LinearLayout
+        android:id="@+id/section1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/section_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3b5998"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                android:id="@+id/btn_facebook_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                fancy:borderColorFancyButtons="#FFFFFF"
+                fancy:borderWidthFancyButtons="1dp"
+                fancy:defaultColorFancyButtons="#3b5998"
+                fancy:focusColorFancyButtons="#5577bd"
+                fancy:fontIconResourceFancyButtons="@string/icon_like"
+                fancy:fontIconSizeFancyButtons="10sp"
+                fancy:iconPositionFancyButtons="right"
+                fancy:radiusFancyButtons="30dp"
+                fancy:textFancyButtons="Like my facebook page"
+                fancy:textColorFancyButtons="#FFFFFF"/>
+
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                android:id="@+id/btn_facebook_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                fancy:borderColorFancyButtons="#FFFFFF"
+                fancy:borderWidthFancyButtons="1dp"
+                fancy:defaultColorFancyButtons="#3b5998"
+                fancy:focusColorFancyButtons="#5577bd"
+                fancy:fontIconResourceFancyButtons="@string/icon_share"
+                fancy:fontIconSizeFancyButtons="10sp"
+                fancy:iconPositionFancyButtons="right"
+                fancy:iconPaddingLeftFancyButtons="20dp"
+                fancy:iconPaddingRightFancyButtons= "0dp"
+                fancy:radiusFancyButtons="30dp"
+                fancy:textFancyButtons="Share the link"
+                fancy:textColorFancyButtons="#FFFFFF"/>
+
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                android:id="@+id/btn_facebook_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                fancy:borderColorFancyButtons="#FFFFFF"
+                fancy:borderWidthFancyButtons="1dp"
+                fancy:defaultColorFancyButtons="#3b5998"
+                fancy:focusColorFancyButtons="#5577bd"
+                fancy:fontIconResourceFancyButtons="@string/icon_follow"
+                fancy:fontIconSizeFancyButtons="10sp"
+                fancy:iconPositionFancyButtons="right"
+                fancy:radiusFancyButtons="30dp"
+                fancy:textFancyButtons="Follow Mehdi Sakout"
+                fancy:textColorFancyButtons="#FFFFFF" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/section_socialnetworks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:minHeight="200dp"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:gravity="center" >
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    fancy:defaultColorFancyButtons="#55acee"
+                    fancy:focusColorFancyButtons="#313131"
+                    fancy:iconResourceFancyButtons="@drawable/lyyj_btn_fancybuttons_twitter"
+                    fancy:iconPaddingLeftFancyButtons="0dp"
+                    fancy:iconPaddingRightFancyButtons="0dp"
+                    fancy:radiusFancyButtons="30dp"
+                    fancy:textColorFancyButtons="#FFFFFF" />
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_dropbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    fancy:defaultColorFancyButtons="#007ee5"
+                    fancy:iconPaddingLeftFancyButtons="0dp"
+                    fancy:iconPaddingRightFancyButtons="0dp"
+                    fancy:focusColorFancyButtons="#313131"
+                    fancy:iconResourceFancyButtons="@drawable/lyyj_btn_fancybuttons_dropbox"
+                    fancy:radiusFancyButtons="30dp">
+                </com.lyyj.activity.demo.button.fancybuttons.FancyButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sn_pos2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_instagram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    fancy:defaultColorFancyButtons="#3f729b"
+                    fancy:iconPaddingLeftFancyButtons="0dp"
+                    fancy:iconPaddingRightFancyButtons="0dp"
+                    fancy:focusColorFancyButtons="#313131"
+                    fancy:iconResourceFancyButtons="@drawable/lyyj_btn_fancybuttons_instagram"
+                    fancy:radiusFancyButtons="30dp">
+                </com.lyyj.activity.demo.button.fancybuttons.FancyButton>
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    fancy:defaultColorFancyButtons="#ff8800"
+                    fancy:iconPaddingLeftFancyButtons="0dp"
+                    fancy:iconPaddingRightFancyButtons="0dp"
+                    fancy:focusColorFancyButtons="#313131"
+                    fancy:iconResourceFancyButtons="@drawable/lyyj_btn_fancybuttons_soundcloud"
+                    fancy:radiusFancyButtons="30dp">
+                </com.lyyj.activity.demo.button.fancybuttons.FancyButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_gplus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    fancy:defaultColorFancyButtons="#dd4b39"
+                    fancy:iconPaddingLeftFancyButtons="0dp"
+                    fancy:iconPaddingRightFancyButtons="0dp"
+                    fancy:focusColorFancyButtons="#313131"
+                    fancy:iconResourceFancyButtons="@drawable/lyyj_btn_fancybuttons_gplus"
+                    fancy:radiusFancyButtons="30dp">
+                </com.lyyj.activity.demo.button.fancybuttons.FancyButton>
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    fancy:defaultColorFancyButtons="#000000"
+                    fancy:iconPaddingLeftFancyButtons="0dp"
+                    fancy:iconPaddingRightFancyButtons="0dp"
+                    fancy:focusColorFancyButtons="#313131"
+                    fancy:iconResourceFancyButtons="@drawable/lyyj_btn_fancybuttons_github"
+                    fancy:radiusFancyButtons="30dp" >
+                </com.lyyj.activity.demo.button.fancybuttons.FancyButton>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/section_spotify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#222326"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp" >
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+            android:id="@+id/btn_spotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            fancy:defaultColorFancyButtons="#7ab800"
+            fancy:focusColorFancyButtons="#9bd823"
+            fancy:fontIconResourceFancyButtons="&#xf04b;"
+            fancy:iconPositionFancyButtons="left"
+            fancy:radiusFancyButtons="30dp"
+            fancy:textFancyButtons="SHUFFLE PLAY"
+            fancy:textColorFancyButtons="#FFFFFF" />
+
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                android:id="@+id/btn_spotify_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:defaultColorFancyButtons="#7ab800"
+                fancy:focusColorFancyButtons="#9bd823"
+                fancy:fontIconResourceFancyButtons="&#xf04c;"
+                fancy:iconPositionFancyButtons="left"
+                fancy:radiusFancyButtons="30dp"
+                fancy:textFancyButtons="PAUSE"
+                fancy:textColorFancyButtons="#FFFFFF" />
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                android:id="@+id/btn_spotify_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:defaultColorFancyButtons="#222326"
+                fancy:focusColorFancyButtons="#424243"
+                fancy:radiusFancyButtons="30dp"
+                fancy:textFancyButtons="FOLOW"
+                fancy:borderColorFancyButtons="#88898c"
+                fancy:borderWidthFancyButtons="1dp"
+                fancy:textColorFancyButtons="#dfe0d9" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/section_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#55acee"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                android:id="@+id/btn_twitter_follow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:padding="5dp"
+                fancy:borderColorFancyButtons="#FFFFFF"
+                fancy:borderWidthFancyButtons="2dp"
+                fancy:defaultColorFancyButtons="#55acee"
+                fancy:focusColorFancyButtons="#8cc9f8"
+                fancy:iconPaddingLeftFancyButtons="40dp"
+                fancy:iconResourceFancyButtons="@drawable/lyyj_btn_fancybuttons_twitter"
+                fancy:textFancyButtons="Follow me on Twitter"
+                fancy:textColorFancyButtons="#FFFFFF"/>
+
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                android:id="@+id/btn_twitter_followers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                fancy:borderColorFancyButtons="#FFFFFF"
+                fancy:borderWidthFancyButtons="2dp"
+                fancy:defaultColorFancyButtons="#55acee"
+                fancy:focusColorFancyButtons="#8cc9f8"
+                fancy:fontIconResourceFancyButtons="@string/icon_user"
+                fancy:fontIconSizeFancyButtons="10sp"
+                fancy:iconPositionFancyButtons="top"
+                fancy:textFancyButtons="2145 followers"
+                fancy:textColorFancyButtons="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff5f69"
+            android:gravity="center"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp" >
+
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                android:id="@+id/btn_create_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                fancy:borderColorFancyButtons="#FFFFFF"
+                fancy:borderWidthFancyButtons="1dp"
+                fancy:defaultColorFancyButtons="#ff5f69"
+                fancy:focusColorFancyButtons="#ff838b"
+                fancy:radiusFancyButtons="30dp"
+                fancy:textFancyButtons="Create an account"
+                fancy:textColorFancyButtons="#FFFFFF" >
+            </com.lyyj.activity.demo.button.fancybuttons.FancyButton>
+
+            <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:borderColorFancyButtons="#FFFFFF"
+                fancy:borderWidthFancyButtons="1dp"
+                fancy:defaultColorFancyButtons="#ff5f69"
+                fancy:focusColorFancyButtons="#ff838b"
+                fancy:fontIconResourceFancyButtons="@string/icon_user"
+                fancy:iconPositionFancyButtons="left"
+                fancy:radiusFancyButtons="30dp"
+                fancy:textFancyButtons="Login"
+                fancy:textColorFancyButtons="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    fancy:borderColorFancyButtons="#FFFFFF"
+                    fancy:borderWidthFancyButtons="2dp"
+                    fancy:defaultColorFancyButtons="#3b414f"
+                    fancy:focusColorFancyButtons="#8cc9f8"
+                    fancy:fontIconResourceFancyButtons="@string/icon_download"
+                    fancy:fontIconSizeFancyButtons="10sp"
+                    fancy:iconPositionFancyButtons="top"
+                    fancy:radiusFancyButtons="10dp"
+                    fancy:textFancyButtons="Download the file"
+                    fancy:textColorFancyButtons="#FFFFFF">
+                </com.lyyj.activity.demo.button.fancybuttons.FancyButton>
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_upload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    fancy:borderColorFancyButtons="#FFFFFF"
+                    fancy:borderWidthFancyButtons="2dp"
+                    fancy:defaultColorFancyButtons="#3b414f"
+                    fancy:focusColorFancyButtons="#8cc9f8"
+                    fancy:fontIconResourceFancyButtons="@string/icon_upload"
+                    fancy:fontIconSizeFancyButtons="10sp"
+                    fancy:radiusFancyButtons="10dp"
+                    fancy:iconPositionFancyButtons="bottom"
+                    fancy:textFancyButtons="Upload"
+                    fancy:textColorFancyButtons="#FFFFFF">
+                </com.lyyj.activity.demo.button.fancybuttons.FancyButton>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    fancy:borderColorFancyButtons="#FFFFFF"
+                    fancy:borderWidthFancyButtons="2dp"
+                    fancy:defaultColorFancyButtons="#40a75a"
+                    fancy:focusColorFancyButtons="#8cc9f8"
+                    fancy:fontIconResourceFancyButtons="@string/icon_user"
+                    fancy:fontIconSizeFancyButtons="15sp"
+                    fancy:iconPositionFancyButtons="left"
+                    fancy:textFancyButtons="Send"
+                    fancy:radiusFancyButtons="10dp"
+                    fancy:textColorFancyButtons="#FFFFFF">
+                </com.lyyj.activity.demo.button.fancybuttons.FancyButton>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_decline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    fancy:borderColorFancyButtons="#FFFFFF"
+                    fancy:borderWidthFancyButtons="0dp"
+                    fancy:defaultColorFancyButtons="#d86262"
+                    fancy:focusColorFancyButtons="#2e5071"
+                    fancy:fontIconResourceFancyButtons="@string/icon_mute"
+                    fancy:fontIconSizeFancyButtons="10dp"
+                    fancy:iconPositionFancyButtons="right"
+                    fancy:radiusFancyButtons="30dp"
+                    fancy:textFancyButtons="Mute"
+                    fancy:textColorFancyButtons="#ffffff" />
+
+                <com.lyyj.activity.demo.button.fancybuttons.FancyButton
+                    android:id="@+id/btn_answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    fancy:defaultColorFancyButtons="#7ed862"
+                    fancy:focusColorFancyButtons="#2e5071"
+                    fancy:fontIconResourceFancyButtons="@string/icon_answer"
+                    fancy:fontIconSizeFancyButtons="10dp"
+                    fancy:iconPositionFancyButtons="right"
+                    fancy:radiusFancyButtons="30dp"
+                    fancy:textFancyButtons="Answer the call"
+                    fancy:textColorFancyButtons="#ffffff" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

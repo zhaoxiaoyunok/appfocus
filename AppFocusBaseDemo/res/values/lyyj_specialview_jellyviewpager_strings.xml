@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="jellyviewpager_text1">text title</string>
+    <string name="jellyviewpager_text2">text description</string>
+
+</resources>
